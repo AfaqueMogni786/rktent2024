@@ -1,0 +1,463 @@
+
+.box{
+    margin-bottom:20px;
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.5);
+    position:relative;
+}
+.box1{
+    position: absolute;
+    left:50px;
+    right:50px;
+    top:130px;
+    background:black;
+    opacity:0.6;
+    text-align: center;
+    padding:20px 0;
+}
+.box1 a:link,.box1 a:visited{
+    color:#D5B455;
+    background:black;
+    opacity:0.8;
+    font-size:20px;
+    text-decoration: none;
+}
+.box1::before{
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.box11::before{
+    
+    border-right: 15px solid transparent;
+    bottom: 0;
+    top: auto;
+    border-top: none;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid #0d345f;
+
+}
+.box img{
+    width:100%;
+    height:220px;
+}
+.box:hover .box1{
+    display: block;
+}
+.details{
+    background:#fff;
+    padding:20px;
+}
+.details p{
+    padding:0;
+    margin:0;
+    font-size:20px;
+    margin-bottom:5px;
+}
+.details .fa{
+    border:solid 1px black;
+    padding:10px 15px;
+    border-radius:100%;
+    color:grey;
+}
+.details .fa:hover{
+    color:red;
+}
+
+
+
+<div class="box">
+    <img src="mehndi/mehndi16.webp" alt="">
+    <div class="details">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <p>Price:&#8377 5000</p>
+            </div>
+            <div class="col-md-6 col-12">
+                <i class="fa fa-heart"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box1 box11">
+    <a href="#"><i class="fa fa-arrow-right"></i>&nbsp; VIEW</a>
+</div>
+</div>
+
+
+
+
+about us
+
+<section class="intro">
+    <div class="container">
+        <div class="row intro1">
+            <div class="col-md-5 col-12 text-center">
+                <img src="bg18.jpg" alt="">
+            </div>
+            <div class="col-md-7 col-12">
+                <p><b>R.K Tent</b> a legend in itself doesn't needs an introduction in the steel city. Rendering quality services since close to two decades to the people of Jamshedpur has never compromised with quality to learn tha extra buck in order to have the nose ahead in the era of cut-throat competition. We specialize in tent decoration and premium outdoor and indoor catering services but have also added imported flower decoration to two armory recently. We believe marriage is the most special occassion in two person's life hence we try our best to make it as memorable as possible for the families. </p>
+                <p>We are the vendors for the number of elite clients in Jamshedpur including UNITED CLUB,MOHAN AHUJA,UTKAL ASSOCIATION , to name a few, and are proud to have catered houses in our town.We always believe in earning relationships and have a healthy familiar bonding with our customers. Having introduced a single window contract system in tent decor,catering,flower decor,tent decor,home decor,lighting,transportation we completely want to release the burden from the client's shoulder. One can get attractive discounts under-his head.</p>
+                <p>Continous innovations in every field of decoration including the gates ,stage,mandap and quality crockery has been our forte. We always believe in earning relationships and have a healthy familiar bonding with our customers. Top priority is given to ensure the safety of erection of the pandals. Our works in such as to suit every one's pocket and we make sure we satisfy our customer's.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+.intro1{
+    padding:50px 0;
+}
+.intro1 img{
+    width:100%;
+    padding:50px 0;
+}
+.intro1 p{text-align:justify;
+    font-size:17px;
+}
+
+
+
+
+.boxes:hover .view{
+    display:block;
+    bottom: 175px;
+    transition:all 4s;
+}
+
+
+
+<div class="detail">
+    <div class="row detail1">
+        <div class="col-md-6 col-12 detail2">
+            <p>Price : &#8377 5000</p>
+        </div>
+        <div class="col-md-6 col-12 detail3">
+            <p><i class="fa fa-heart"></i></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    
+<script src="aos.js"></script>
+<script>
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+</script>
+
+
+
+<link rel="stylesheet" href="aos.css"/><link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+
+
+.boxes{
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.5);
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.box img{
+    width: 100%;
+    height:180px;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    border-radius:25px;
+}
+.view{
+    background: rgba(255,255,255,0.6);
+    position:absolute;
+    bottom:-100px;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+    color:white;
+    font-weight:bold;
+    height:50%;
+}
+.view1{
+    background:linear-gradient(to bottom,#eacda3,#d6ae7b);
+    position:absolute;
+    bottom:-100px;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+    font-weight:bold;
+    height:25%;
+}
+.view a:link, .view a:visited{
+    color:maroon;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
+}
+.view::before{
+        position: absolute;
+        background: transparent;
+        width: 0;
+        height: 0;
+        content: "";
+        left:0; 
+    }
+.view1::before{
+        border-right: 15px solid transparent;
+        top:-14px;
+        border-top: none;
+        border-left: 15px solid transparent;
+        border-bottom: 15px solid #e8a144;
+    }
+.boxes:hover .view{
+    display:block;
+    bottom:0;
+    transition:all 4s;
+}
+.boxes:hover .view1{
+    display:block;
+    bottom:0;
+    transition:all 4s;
+}
+
+
+
+
+.boxes{
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.5);
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.box{
+    height:200px;
+    background:#C191AB;
+    position:relative;
+    overflow:hidden;
+    border-radius:25px;
+}
+.details{
+        position:absolute;
+        bottom:-100px;
+        width:100%;
+        text-align:center;
+        padding:10px 0;
+        background:linear-gradient(to bottom,transparent,black);
+        color:white;
+        font-weight:bold;
+        height:30%;
+        
+}
+.details a:link, .details a:visited{
+    color:#D5B455;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
+}
+.box:hover .details{
+            display:block;
+            bottom:0;
+            transition:all 4s;
+}
+
+
+
+
+.photo{
+    padding:50px 0;
+}
+.boxes{
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.5);
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.box img{
+    width: 100%;
+    height:180px;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    border-radius:25px;
+}
+.view{
+    background: rgba(255,255,255,0.6);
+    position:absolute;
+    bottom:-100px;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+    color:white;
+    font-weight:bold;
+    height:50%;
+}
+.view1{
+    background: rgb(208,211,212,0.7);
+    position:absolute;
+    bottom:-100px;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+    font-weight:bold;
+    height:25%;
+}
+.view a:link, .view a:visited{
+    color:maroon;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
+}
+.view::before{
+        position: absolute;
+        background: transparent;
+        width: 0;
+        height: 0;
+        content: "";
+        left:0; 
+    }
+.view1::before{
+        border-right: 15px solid transparent;
+        top:-14px;
+        border-top:none;
+        border-left:15px solid transparent;
+        border-bottom:15px solid rgb(208,211,212,0.7);
+    }
+.boxes:hover .view{
+    display:block;
+    bottom:0;
+    transition:all 4s;
+}
+.boxes:hover .view1{
+    display:block;
+    bottom:0;
+    transition:all 4s;
+}
+
+
+
+
+
+
+<footer class="footerarea">
+    <div class="container">
+        <div class="row foot1">
+            <div class="col-md-3 col-12">
+                <h1>ABOUT US</h1>
+                <p>"R.K. Tent" is passionate about crafting charmingly timeless and elegant luxurious weddings and events at stunning venues throughout the Jamshedpur. As the leading wedding designers and event organisers in Jamshedpur, we are renowned to create authentic experiences worth cherishing for a lifetime.</p>
+            </div>
+            <div class="col-md-3 col-12 footaddress">
+                <h1>OFFICIAL ADDRESS</h1>
+                <ul>
+                    <li><i class="fa fa-envelope"></i>&nbsp;Address:<a href="#">Ramadhin Bagan P.O-Telco P.S-Telco Jamshedpur East Singhbhum 831004</a></li>
+                    <li><i class="fa fa-envelope-o"></i>&nbsp;Email: <br><a href="mailto:rktentjamshedpur@gmail.com">rktentjamshedpur@gmail.com</a></li>
+                    <li><i class="fa fa-mobile-phone"></i>&nbsp;Mobile: <br><a href="tel:7482825534">7482825534 , 7667017876</a></li>
+                    <li><i class="fa fa-whatsapp"></i>&nbsp;Whatsapp:<a href="https://wa.me/7482825534">7482825534</a></li>
+                </ul>
+            </div>
+                
+            <div class="col-md-3 col-12 footmenu">
+                <h1>MENU</h1>
+                <ul>
+                    <li><i class="fa fa-hand-o-right"></i><a href="index.html">&nbsp;HOME</a></li>
+                    <li><i class="fa fa-hand-o-right"></i><a href="about.html">&nbsp;ABOUT</a></li>
+                    <li><i class="fa fa-hand-o-right"></i><a href="service.html">&nbsp;SERVICES</a></li>
+                    <li><i class="fa fa-hand-o-right"></i><a href="planning.html">&nbsp;PLANNING</a></li>
+                    <li><i class="fa fa-hand-o-right"></i><a href="gallery.html">&nbsp;GALLERY</a></li>
+                    <li><i class="fa fa-hand-o-right"></i><a href="contact.html">&nbsp;CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-12">
+                <h1>HOW TO REACH US</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58852.53070794375!2d86.19324982844246!3d22.791969031012513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e30024720275%3A0x883991bf0aa61275!2sR.K%20Tent!5e0!3m2!1sen!2sin!4v1703409034050!5m2!1sen!2sin" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row lastarea">
+            <div class="col">
+                <p>Design & Developed By :<font color="white"> Esha Kumari Under The Guidance Of Kunal Mahto</font></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+.footerarea{
+    background:black;
+    padding-top:30px;
+}
+.foot1 h1{
+    margin:0;
+    padding:0;
+	color:#D5B455;
+	font:normal bold 25px monospace;
+	padding-bottom:20px;
+}
+.foot1 p{
+    text-align:justify;
+    font:normal 300 18px arial;
+    line-height:25px;
+    color:white;
+    margin-bottom:20px;
+}
+.footmenu{
+    text-align: left;
+}
+.footmenu ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+}
+.footmenu ul li{
+    color:#EDD87B;
+    font-size:15px;
+    padding: 3px 0;
+    transition: all 1s;
+}
+.footmenu ul li:hover{
+    color:#EDD87B;
+    transform:translate(10px,0);
+}
+.footmenu a:link,.footmenu a:visited{
+    font-size:18px;
+    color:#fff;
+    text-decoration:none;
+}
+.footmenu a:hover{
+    color:#EDD87B;
+}
+.footmenu .fa{
+    font-weight:200;
+}
+.footaddress ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+}
+.footaddress ul li{
+    color:#EDD87B;
+    font-size:22px;
+    padding: 3px 0;
+}
+.footaddress ul li:hover{
+    color:#EDD87B;
+}
+.footaddress a:link,.footaddress a:visited{
+    font-size:18px;
+    color:#fff;
+    text-decoration:none;
+}
+.footaddress a:hover{
+    color:#EDD87B;
+}
+.footaddress .fa{
+    font-weight:200;
+}
